@@ -1,5 +1,5 @@
 function calculateArea(radius) {
-    let piValue = 3.14159;  // Variable to be renamed
+    let piValueConstant = 3.14159;  // Variable to be renamed
     return piValue * radius * radius;
 }
 
