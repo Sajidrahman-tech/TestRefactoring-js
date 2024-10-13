@@ -1,20 +1,22 @@
 public class refactoring {
-    private String name;  // Original variable name
-    private int age;      // Original variable name
+    private String fullName;  // Renamed variable
+    private int yearsOld;     // Renamed variable
+    private String gender;     // New variable
 
     // Constructor
-    public Person(String name, int age) {
-        this.name = name;  // Original assignment
-        this.age = age;    // Original assignment
+    public Person(String fullName, int yearsOld, String gender) {
+        this.fullName = fullName;  // Updated assignment
+        this.yearsOld = yearsOld;   // Updated assignment
+        this.gender = gender;        // New assignment
     }
 
     // Method to display person's details
     public void display() {
-        System.out.println("Name: " + name + ", Age: " + age);
+        System.out.println("Full Name: " + fullName + ", Age: " + yearsOld + ", Gender: " + gender);
     }
 
     public static void main(String[] args) {
-        Person person = new Person("John", 25);
+        Person person = new Person("John Doe", 25, "Male");  // Updated constructor call
         person.display();
     }
 }
