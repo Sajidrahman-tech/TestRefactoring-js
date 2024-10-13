@@ -4,16 +4,16 @@ public class refactoring {
         // Create a Scanner object to read input
 
         // Prompt the user to enter the first number
-        double firstNumber = 2
+        double fNumber = 2
 
         // Prompt the user to enter the second number
-        double secondNumber = 4
+        double sNumber = 4
 
         // Perform addition
-        double sum = firstNumber + secondNumber;
+        double sum = fNumber + sNumber;
 
         // Display the result
-        System.out.println("The sum of " + firstNumber + " and " + secondNumber + " is: " + sum);
+        System.out.println("The sum of " + fNumber + " and " + sNumber + " is: " + sum);
 
     }
 }
